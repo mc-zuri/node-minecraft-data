@@ -10,7 +10,7 @@
     "test:types": "tsc typings/test-typings && node typings/test-typings.js",
     "test": "npm run generate:types && npm run generate:data && npm run lint && npm run test:types && mocha",
     "lint": "standard",
-    "prepare": "npm run generate:data && npm run generate:types",
+    "build": "npm run generate:data && npm run generate:types",
     "fix": "standard --fix"
   },
   "standard": {
@@ -38,7 +38,7 @@
     "json-schema-to-typescript": "11.0.5",
     "minecraft-packets": "^1.4.0",
     "mocha": "^11.0.1",
-    "standard": "^17.0.0",
+    "standard": "^17.1.2",
     "typescript": "~5.9.2"
   },
   "dependencies": {}
