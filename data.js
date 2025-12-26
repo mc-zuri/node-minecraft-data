@@ -2171,6 +2171,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.19.60/language.json") }
     },
     '1.19.70': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.19.1/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.19.1/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.19.1/blockCollisionShapes.json") },
@@ -2193,6 +2194,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.19.70/language.json") }
     },
     '1.19.80': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.19.80/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.19.80/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.19.1/blockCollisionShapes.json") },
@@ -2215,6 +2217,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.19.80/language.json") }
     },
     '1.20.0': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.20.0/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.20.0/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.20.0/blockCollisionShapes.json") },
@@ -2237,6 +2240,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.0/language.json") }
     },
     '1.20.10': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.20.10/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.20.10/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.20.0/blockCollisionShapes.json") },
@@ -2259,6 +2263,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.20.15': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.20.10/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.20.10/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.20.0/blockCollisionShapes.json") },
@@ -2281,6 +2286,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.20.30': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.20.30/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.20.30/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.20.0/blockCollisionShapes.json") },
@@ -2303,6 +2309,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.20.40': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.20.40/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.20.40/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.20.0/blockCollisionShapes.json") },
@@ -2325,6 +2332,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.20.50': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.20.50/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.20.50/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.20.50/blockCollisionShapes.json") },
@@ -2347,6 +2355,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.20.61': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.20.61/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.20.61/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.20.61/blockCollisionShapes.json") },
@@ -2369,6 +2378,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.20.71': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.20.71/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.20.71/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.20.71/blockCollisionShapes.json") },
@@ -2391,6 +2401,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.20.80': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.20.71/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.20.71/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.20.71/blockCollisionShapes.json") },
@@ -2413,6 +2424,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.21.0': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.0/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.0/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.0/blockCollisionShapes.json") },
@@ -2435,6 +2447,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.21.2': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.0/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.0/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.0/blockCollisionShapes.json") },
@@ -2457,6 +2470,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.21.20': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.0/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.20/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.0/blockCollisionShapes.json") },
@@ -2479,6 +2493,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.21.30': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.0/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.30/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.0/blockCollisionShapes.json") },
@@ -2501,6 +2516,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.21.42': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.42/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.42/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.42/blockCollisionShapes.json") },
@@ -2523,6 +2539,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.21.50': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.42/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.50/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.42/blockCollisionShapes.json") },
@@ -2545,6 +2562,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.20.10/language.json") }
     },
     '1.21.60': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.60/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.60/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.60/blockCollisionShapes.json") },
@@ -2567,6 +2585,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.21.60/language.json") }
     },
     '1.21.70': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.70/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.70/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.70/blockCollisionShapes.json") },
@@ -2589,6 +2608,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.21.70/language.json") }
     },
     '1.21.80': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.80/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.80/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.80/blockCollisionShapes.json") },
@@ -2611,6 +2631,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.21.70/language.json") }
     },
     '1.21.90': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.90/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.80/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.90/blockCollisionShapes.json") },
@@ -2633,6 +2654,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.21.70/language.json") }
     },
     '1.21.93': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.90/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.80/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.90/blockCollisionShapes.json") },
@@ -2655,6 +2677,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.21.70/language.json") }
     },
     '1.21.100': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.100/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.100/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.100/blockCollisionShapes.json") },
@@ -2677,6 +2700,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.21.70/language.json") }
     },
     '1.21.111': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.111/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.111/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.111/blockCollisionShapes.json") },
@@ -2699,6 +2723,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.21.70/language.json") }
     },
     '1.21.120': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.111/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.111/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.111/blockCollisionShapes.json") },
@@ -2721,6 +2746,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.21.70/language.json") }
     },
     '1.21.124': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.111/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.111/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.111/blockCollisionShapes.json") },
@@ -2743,6 +2769,7 @@ module.exports =
       get language () { return require("./minecraft-data/data/bedrock/1.21.70/language.json") }
     },
     '1.21.130': {
+      get attributes () { return require("./minecraft-data/data/bedrock/1.16.201/attributes.json") },
       get blocks () { return require("./minecraft-data/data/bedrock/1.21.111/blocks.json") },
       get blockStates () { return require("./minecraft-data/data/bedrock/1.21.111/blockStates.json") },
       get blockCollisionShapes () { return require("./minecraft-data/data/bedrock/1.21.111/blockCollisionShapes.json") },
