@@ -155,11 +155,6 @@ declare namespace MinecraftData {
        */
       [k: string]: [number, number, number, number, number, number][];
     };
-
-    /**
-     * Dynamic shapes based on neighbors
-     */
-    dynamicShapes: Record<'fence' | 'pane' | 'stairs' | 'chorus', number>
   }
   
   
