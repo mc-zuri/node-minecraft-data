@@ -1,5 +1,17 @@
 [
   {
+    "id": -1125,
+    "stackSize": 64,
+    "name": "sulfur_spike",
+    "displayName": "Sulfur Spike",
+    "nbt": {
+      "type": "compound",
+      "name": "",
+      "value": {}
+    },
+    "version": "none"
+  },
+  {
     "id": -1124,
     "stackSize": 64,
     "name": "chiseled_cinnabar",
@@ -7500,18 +7512,6 @@
     "displayName": "Mangrove Standing Sign"
   },
   {
-    "id": -493,
-    "stackSize": 1,
-    "name": "item.mangrove_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Mangrove Door"
-  },
-  {
     "id": -492,
     "stackSize": 64,
     "name": "mangrove_fence_gate",
@@ -10340,30 +10340,6 @@
       "value": {}
     },
     "version": "none"
-  },
-  {
-    "id": -245,
-    "stackSize": 1,
-    "name": "item.warped_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Warped Door"
-  },
-  {
-    "id": -244,
-    "stackSize": 1,
-    "name": "item.crimson_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Crimson Door"
   },
   {
     "id": -243,
@@ -14006,18 +13982,6 @@
     "displayName": "Standing Sign"
   },
   {
-    "id": 64,
-    "stackSize": 1,
-    "name": "item.wooden_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Wooden Door"
-  },
-  {
     "id": 65,
     "stackSize": 64,
     "name": "ladder",
@@ -14088,18 +14052,6 @@
       "value": {}
     },
     "version": "none"
-  },
-  {
-    "id": 71,
-    "stackSize": 1,
-    "name": "item.iron_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Iron Door"
   },
   {
     "id": 72,
@@ -15546,66 +15498,6 @@
     "displayName": "Chemical Heat"
   },
   {
-    "id": 193,
-    "stackSize": 1,
-    "name": "item.spruce_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Spruce Door"
-  },
-  {
-    "id": 194,
-    "stackSize": 1,
-    "name": "item.birch_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Birch Door"
-  },
-  {
-    "id": 195,
-    "stackSize": 1,
-    "name": "item.jungle_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Jungle Door"
-  },
-  {
-    "id": 196,
-    "stackSize": 1,
-    "name": "item.acacia_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Acacia Door"
-  },
-  {
-    "id": 197,
-    "stackSize": 1,
-    "name": "item.dark_oak_door",
-    "nbt": {
-      "type": "compound",
-      "name": "",
-      "value": {}
-    },
-    "version": "none",
-    "displayName": "Dark Oak Door"
-  },
-  {
     "id": 198,
     "stackSize": 64,
     "name": "grass_path",
@@ -16776,6 +16668,10 @@
                   "type": "string",
                   "value": "item.copper_spear.use"
                 },
+                "start_using": {
+                  "type": "string",
+                  "value": "always"
+                },
                 "use_duration": {
                   "type": "float",
                   "value": 72000
@@ -17265,6 +17161,10 @@
                   "type": "string",
                   "value": "item.diamond_spear.use"
                 },
+                "start_using": {
+                  "type": "string",
+                  "value": "always"
+                },
                 "use_duration": {
                   "type": "float",
                   "value": 72000
@@ -17752,6 +17652,10 @@
                   "type": "string",
                   "value": "item.golden_spear.use"
                 },
+                "start_using": {
+                  "type": "string",
+                  "value": "always"
+                },
                 "use_duration": {
                   "type": "float",
                   "value": 72000
@@ -18238,6 +18142,10 @@
                 "start_sound": {
                   "type": "string",
                   "value": "item.iron_spear.use"
+                },
+                "start_using": {
+                  "type": "string",
+                  "value": "always"
                 },
                 "use_duration": {
                   "type": "float",
@@ -18735,6 +18643,10 @@
                   "type": "string",
                   "value": "item.netherite_spear.use"
                 },
+                "start_using": {
+                  "type": "string",
+                  "value": "always"
+                },
                 "use_duration": {
                   "type": "float",
                   "value": 72000
@@ -19223,6 +19135,10 @@
                 "start_sound": {
                   "type": "string",
                   "value": "item.stone_spear.use"
+                },
+                "start_using": {
+                  "type": "string",
+                  "value": "always"
                 },
                 "use_duration": {
                   "type": "float",
@@ -19730,6 +19646,10 @@
                 "start_sound": {
                   "type": "string",
                   "value": "item.wooden_spear.use"
+                },
+                "start_using": {
+                  "type": "string",
+                  "value": "always"
                 },
                 "use_duration": {
                   "type": "float",
@@ -23886,6 +23806,10 @@
                 "movement_modifier": {
                   "type": "float",
                   "value": 0.3499999940395355
+                },
+                "start_using": {
+                  "type": "string",
+                  "value": "always"
                 },
                 "use_duration": {
                   "type": "float",
@@ -34428,6 +34352,18 @@
   {
     "id": 833,
     "stackSize": 1,
+    "name": "music_disc_bounce",
+    "displayName": "Music Disc",
+    "nbt": {
+      "type": "compound",
+      "name": "",
+      "value": {}
+    },
+    "version": "none"
+  },
+  {
+    "id": 834,
+    "stackSize": 1,
     "name": "chemistry_table",
     "nbt": {
       "type": "compound",
@@ -34438,7 +34374,7 @@
     "displayName": "Chemistry Table"
   },
   {
-    "id": 834,
+    "id": 835,
     "stackSize": 1,
     "name": "hard_stained_glass",
     "nbt": {
@@ -34450,7 +34386,7 @@
     "displayName": "Hard Stained Glass"
   },
   {
-    "id": 835,
+    "id": 836,
     "stackSize": 1,
     "name": "hard_stained_glass_pane",
     "nbt": {
@@ -34462,7 +34398,7 @@
     "displayName": "Hard Stained Glass Pane"
   },
   {
-    "id": 836,
+    "id": 837,
     "stackSize": 1,
     "name": "colored_torch_rg",
     "nbt": {
@@ -34474,7 +34410,7 @@
     "displayName": "Colored Torch Rg"
   },
   {
-    "id": 837,
+    "id": 838,
     "stackSize": 1,
     "name": "colored_torch_bp",
     "nbt": {
@@ -34486,7 +34422,7 @@
     "displayName": "Colored Torch Bp"
   },
   {
-    "id": 838,
+    "id": 839,
     "stackSize": 64,
     "name": "light_block",
     "displayName": "Light",
@@ -34498,7 +34434,7 @@
     "version": "none"
   },
   {
-    "id": 839,
+    "id": 840,
     "stackSize": 1,
     "name": "boat",
     "nbt": {
@@ -34510,7 +34446,7 @@
     "displayName": "Boat"
   },
   {
-    "id": 840,
+    "id": 841,
     "stackSize": 1,
     "name": "dye",
     "nbt": {
@@ -34522,7 +34458,7 @@
     "displayName": "Dye"
   },
   {
-    "id": 841,
+    "id": 842,
     "stackSize": 1,
     "name": "banner_pattern",
     "nbt": {
@@ -34534,7 +34470,7 @@
     "displayName": "Banner Pattern"
   },
   {
-    "id": 842,
+    "id": 843,
     "stackSize": 1,
     "name": "spawn_egg",
     "nbt": {
@@ -34546,7 +34482,7 @@
     "displayName": "Spawn Egg"
   },
   {
-    "id": 843,
+    "id": 844,
     "stackSize": 64,
     "name": "end_crystal",
     "displayName": "End Crystal",
@@ -34558,7 +34494,7 @@
     "version": "none"
   },
   {
-    "id": 844,
+    "id": 845,
     "stackSize": 64,
     "name": "glow_berries",
     "displayName": "Glow Berries",

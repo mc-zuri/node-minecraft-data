@@ -657,7 +657,7 @@ declare namespace MinecraftData {
   
   interface Item {
     /**
-     * The unique identifier for an item
+     * The unique identifier for an item (Bedrock edition also uses negative ids)
      */
     id: number;
     /**
@@ -696,6 +696,16 @@ declare namespace MinecraftData {
      * Block state id associated with this item in some editions
      */
     blockStateId?: number;
+    /**
+     * Default NBT data associated with this item (Bedrock edition)
+     */
+    nbt?: {
+      [k: string]: unknown;
+    };
+    /**
+     * Item registration source in Bedrock edition (e.g. 'data_driven', 'legacy', 'none')
+     */
+    version?: string;
     variations?: {
       metadata: number;
       displayName: string;

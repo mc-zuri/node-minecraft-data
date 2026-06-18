@@ -9236,7 +9236,7 @@
     "variations": [
       {
         "metadata": 0,
-        "id": 886,
+        "id": 887,
         "name": "test_instance_block",
         "displayName": "Test Instance Block",
         "stackSize": 64
@@ -26618,14 +26618,14 @@
     "variations": [
       {
         "metadata": 0,
-        "id": 1292,
+        "id": 1293,
         "name": "spectral_arrow",
         "displayName": "Spectral Arrow",
         "stackSize": 64
       },
       {
         "metadata": 0,
-        "id": 1293,
+        "id": 1294,
         "name": "tipped_arrow",
         "displayName": "Tipped Arrow",
         "stackSize": 64
@@ -27086,7 +27086,7 @@
     "variations": [
       {
         "metadata": 0,
-        "id": 1308,
+        "id": 1309,
         "name": "debug_stick",
         "displayName": "Debug Stick",
         "stackSize": 1
@@ -28242,7 +28242,7 @@
     "variations": [
       {
         "metadata": 0,
-        "id": 1307,
+        "id": 1308,
         "name": "knowledge_book",
         "displayName": "Knowledge Book",
         "stackSize": 1
@@ -28633,105 +28633,105 @@
     "variations": [
       {
         "metadata": 1,
-        "id": 1087,
+        "id": 1088,
         "name": "orange_bed",
         "displayName": "Orange Bed",
         "stackSize": 1
       },
       {
         "metadata": 2,
-        "id": 1088,
+        "id": 1089,
         "name": "magenta_bed",
         "displayName": "Magenta Bed",
         "stackSize": 1
       },
       {
         "metadata": 3,
-        "id": 1089,
+        "id": 1090,
         "name": "light_blue_bed",
         "displayName": "Light Blue Bed",
         "stackSize": 1
       },
       {
         "metadata": 4,
-        "id": 1090,
+        "id": 1091,
         "name": "yellow_bed",
         "displayName": "Yellow Bed",
         "stackSize": 1
       },
       {
         "metadata": 5,
-        "id": 1091,
+        "id": 1092,
         "name": "lime_bed",
         "displayName": "Lime Bed",
         "stackSize": 1
       },
       {
         "metadata": 6,
-        "id": 1092,
+        "id": 1093,
         "name": "pink_bed",
         "displayName": "Pink Bed",
         "stackSize": 1
       },
       {
         "metadata": 7,
-        "id": 1093,
+        "id": 1094,
         "name": "gray_bed",
         "displayName": "Gray Bed",
         "stackSize": 1
       },
       {
         "metadata": 8,
-        "id": 1094,
+        "id": 1095,
         "name": "light_gray_bed",
         "displayName": "Light Gray Bed",
         "stackSize": 1
       },
       {
         "metadata": 9,
-        "id": 1095,
+        "id": 1096,
         "name": "cyan_bed",
         "displayName": "Cyan Bed",
         "stackSize": 1
       },
       {
         "metadata": 10,
-        "id": 1096,
+        "id": 1097,
         "name": "purple_bed",
         "displayName": "Purple Bed",
         "stackSize": 1
       },
       {
         "metadata": 11,
-        "id": 1097,
+        "id": 1098,
         "name": "blue_bed",
         "displayName": "Blue Bed",
         "stackSize": 1
       },
       {
         "metadata": 12,
-        "id": 1098,
+        "id": 1099,
         "name": "brown_bed",
         "displayName": "Brown Bed",
         "stackSize": 1
       },
       {
         "metadata": 13,
-        "id": 1099,
+        "id": 1100,
         "name": "green_bed",
         "displayName": "Green Bed",
         "stackSize": 1
       },
       {
         "metadata": 14,
-        "id": 1100,
+        "id": 1101,
         "name": "red_bed",
         "displayName": "Red Bed",
         "stackSize": 1
       },
       {
         "metadata": 15,
-        "id": 1101,
+        "id": 1102,
         "name": "black_bed",
         "displayName": "Black Bed",
         "stackSize": 1
@@ -30120,7 +30120,7 @@
     "variations": [
       {
         "metadata": 0,
-        "id": 858,
+        "id": 859,
         "name": "hopper_minecart",
         "displayName": "Minecart with Hopper",
         "stackSize": 1
@@ -30799,105 +30799,105 @@
     "variations": [
       {
         "metadata": 1,
-        "id": 1280,
+        "id": 1281,
         "name": "red_banner",
         "displayName": "Red Banner",
         "stackSize": 16
       },
       {
         "metadata": 2,
-        "id": 1279,
+        "id": 1280,
         "name": "green_banner",
         "displayName": "Green Banner",
         "stackSize": 16
       },
       {
         "metadata": 3,
-        "id": 1278,
+        "id": 1279,
         "name": "brown_banner",
         "displayName": "Brown Banner",
         "stackSize": 16
       },
       {
         "metadata": 4,
-        "id": 1277,
+        "id": 1278,
         "name": "blue_banner",
         "displayName": "Blue Banner",
         "stackSize": 16
       },
       {
         "metadata": 5,
-        "id": 1276,
+        "id": 1277,
         "name": "purple_banner",
         "displayName": "Purple Banner",
         "stackSize": 16
       },
       {
         "metadata": 6,
-        "id": 1275,
+        "id": 1276,
         "name": "cyan_banner",
         "displayName": "Cyan Banner",
         "stackSize": 16
       },
       {
         "metadata": 7,
-        "id": 1274,
+        "id": 1275,
         "name": "light_gray_banner",
         "displayName": "Light Gray Banner",
         "stackSize": 16
       },
       {
         "metadata": 8,
-        "id": 1273,
+        "id": 1274,
         "name": "gray_banner",
         "displayName": "Gray Banner",
         "stackSize": 16
       },
       {
         "metadata": 9,
-        "id": 1272,
+        "id": 1273,
         "name": "pink_banner",
         "displayName": "Pink Banner",
         "stackSize": 16
       },
       {
         "metadata": 10,
-        "id": 1271,
+        "id": 1272,
         "name": "lime_banner",
         "displayName": "Lime Banner",
         "stackSize": 16
       },
       {
         "metadata": 11,
-        "id": 1270,
+        "id": 1271,
         "name": "yellow_banner",
         "displayName": "Yellow Banner",
         "stackSize": 16
       },
       {
         "metadata": 12,
-        "id": 1269,
+        "id": 1270,
         "name": "light_blue_banner",
         "displayName": "Light Blue Banner",
         "stackSize": 16
       },
       {
         "metadata": 13,
-        "id": 1268,
+        "id": 1269,
         "name": "magenta_banner",
         "displayName": "Magenta Banner",
         "stackSize": 16
       },
       {
         "metadata": 14,
-        "id": 1267,
+        "id": 1268,
         "name": "orange_banner",
         "displayName": "Orange Banner",
         "stackSize": 16
       },
       {
         "metadata": 15,
-        "id": 1266,
+        "id": 1267,
         "name": "white_banner",
         "displayName": "White Banner",
         "stackSize": 16

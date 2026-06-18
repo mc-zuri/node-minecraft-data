@@ -32701,11 +32701,6 @@
 		"version": 18168865
 	},
 	{
-		"name": "golden_dandelion",
-		"states": {},
-		"version": 18168865
-	},
-	{
 		"name": "activator_rail",
 		"states": {
 			"rail_data_bit": {
