@@ -9,7 +9,7 @@ const { globSync } = require('glob')
  * @returns {string[]}
  */
 function prepLines (raw) {
-  const lines = raw.replaceAll(' {\n', ' {;\n').split(';')
+  const lines = raw.replaceAll('\r\n', '\n').replaceAll(' {\n', ' {;\n').split(';')
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim()
     if (line.includes('static final') && !line.includes(' = ')) {
@@ -32,22 +32,45 @@ function prepLines (raw) {
  * @returns {[Record<string,string>, Record<string,string>]}
  */
 function getEntityTypes (versionDir) {
-  const entityTypes = fs.readFileSync(`${versionDir}/client/net/minecraft/world/entity/EntityType.java`, 'utf8')
-  const entityTypesLines = prepLines(entityTypes)
+  const entityDir = `${versionDir}/client/net/minecraft/world/entity`
   const classNameTo = {}
   const nameToClass = {}
-  for (const line of entityTypesLines) {
-    if (line.includes('= register(')) {
-      // Given the line: public static final EntityType<Allay> ALLAY = register( "allay", EntityType.Builder.<Allay>of(Allay::new, MobCategory.CREATURE).sized(0.35F, 0.6F).clientTrackingRange(8).updateInterval(2) );
-      // we extract Allay and "allay"
-      const regex = line.match(/EntityType<(.*)> (.*) = register\(\W*"([a-z0-9_]+)"/)
+  // 26.3+: constants live in EntityTypes.java and names in EntityTypeIds.java
+  if (fs.existsSync(`${entityDir}/EntityTypes.java`)) {
+    const idNames = {}
+    for (const line of prepLines(fs.readFileSync(`${entityDir}/EntityTypeIds.java`, 'utf8'))) {
+      // From: public static final ResourceKey<EntityType<?>> ALLAY = create("allay")
+      const regex = line.match(/ ([A-Z0-9_]+) = create\(\W*"([a-z0-9_]+)"/)
+      if (regex) idNames[regex[1]] = regex[2]
+    }
+    for (const line of prepLines(fs.readFileSync(`${entityDir}/EntityTypes.java`, 'utf8'))) {
+      // From: public static final EntityType<Allay> ALLAY = register(EntityTypeIds.ALLAY, EntityType.Builder.of(Allay::new, ...))
+      const regex = line.match(/EntityType<(.*?)> [A-Z0-9_]+ = register\(\s*EntityTypeIds\.([A-Z0-9_]+)/)
       if (regex) {
-        const [, type, , name] = regex
+        const [, type, id] = regex
+        const name = idNames[id]
+        if (!name) throw new Error('Unknown entity type id ' + id)
         classNameTo[type] = name
         nameToClass[name] = type
       }
     }
+  } else {
+    const entityTypes = fs.readFileSync(`${entityDir}/EntityType.java`, 'utf8')
+    const entityTypesLines = prepLines(entityTypes)
+    for (const line of entityTypesLines) {
+      if (line.includes('= register(')) {
+        // Given the line: public static final EntityType<Allay> ALLAY = register( "allay", EntityType.Builder.<Allay>of(Allay::new, MobCategory.CREATURE).sized(0.35F, 0.6F).clientTrackingRange(8).updateInterval(2) );
+        // we extract Allay and "allay"
+        const regex = line.match(/EntityType<(.*)> (.*) = register\(\W*"([a-z0-9_]+)"/)
+        if (regex) {
+          const [, type, , name] = regex
+          classNameTo[type] = name
+          nameToClass[name] = type
+        }
+      }
+    }
   }
+  if (!Object.keys(classNameTo).length) throw new Error('No entity types found in ' + entityDir)
   return [classNameTo, nameToClass]
 }
 

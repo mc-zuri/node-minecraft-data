@@ -1,8 +1,9 @@
 const fs = require('fs')
 const cp = require('child_process')
 const version = process.argv[2]
+const mcdataVersion = process.argv[3] || version
 if (!version) {
-  console.log('Usage: node extractPcFoods.js <version>')
+  console.log('Usage: node extractPcFoods.js <codeVersion> [mcdataVersion]')
   process.exit(1)
 }
 
@@ -10,7 +11,7 @@ if (!fs.existsSync(version)) {
   cp.execSync(`git clone -b client${version} https://github.com/extremeheat/extracted_minecraft_data.git ${version} --depth 1`, { stdio: 'inherit' })
 }
 
-const mcDataItems = require(`../../data/pc/${version}/items.json`)
+const mcDataItems = require(`../../data/pc/${mcdataVersion}/items.json`)
 const outputItems = []
 function getItemDataFor (itemName) {
   return mcDataItems.find(e => e.name === itemName)
@@ -55,4 +56,4 @@ for (const line of foodsFile.replaceAll('\n', '').split(';')) {
   }
 }
 outputItems.sort((a, b) => a.id - b.id)
-fs.writeFileSync(`../../data/pc/${version}/foods.json`, JSON.stringify(outputItems, null, 2))
+fs.writeFileSync(`../../data/pc/${mcdataVersion}/foods.json`, JSON.stringify(outputItems, null, 2))
